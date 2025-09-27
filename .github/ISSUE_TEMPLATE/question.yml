@@ -1,0 +1,79 @@
+name: ❓ Question/Support
+description: Ask a question or get support for using Vinkius
+title: "[Question]: "
+labels: ["question", "support"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your question! Please provide as much detail as possible so we can help you effectively.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know about Vinkius?
+      placeholder: Please describe your question in detail
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Question Category
+      description: What category does your question fall into?
+      options:
+        - General Usage
+        - Installation/Setup
+        - Configuration
+        - Integration
+        - Performance
+        - Best Practices
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-tried
+    attributes:
+      label: What Have You Tried?
+      description: Describe what you've already tried or researched
+      placeholder: Please describe any steps you've already taken or resources you've consulted
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Information
+      description: Please provide information about your environment (if relevant)
+      placeholder: |
+        - Vinkius Version: [e.g. 1.0.0]
+        - Operating System: [e.g. Windows 10, macOS 12.0, Ubuntu 20.04]
+        - Browser (if applicable): [e.g. Chrome 95, Firefox 94]
+        - Node.js Version (if applicable): [e.g. 16.0.0]
+
+  - type: textarea
+    id: code-example
+    attributes:
+      label: Code Example (if applicable)
+      description: If your question involves code, please provide a minimal example
+      placeholder: Paste your code here
+      render: javascript
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about your question
+      placeholder: Any additional information that might be helpful
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues and documentation for an answer
+          required: true
+        - label: This is a question/support request and not a bug report (use the bug report template for bugs)
+          required: true

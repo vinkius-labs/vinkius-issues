@@ -1,0 +1,86 @@
+name: 📚 Documentation Issue
+description: Report issues with documentation or suggest documentation improvements
+title: "[Docs]: "
+labels: ["documentation", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us improve our documentation! Please provide details about the documentation issue or improvement.
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Documentation Issue Type
+      description: What type of documentation issue is this?
+      options:
+        - Missing documentation
+        - Incorrect information
+        - Outdated information
+        - Unclear/confusing content
+        - Broken links
+        - Typo/grammar issue
+        - Formatting issue
+        - Enhancement suggestion
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Documentation Location
+      description: Where is the documentation issue located?
+      placeholder: |
+        Please provide:
+        - URL or file path
+        - Section/page title
+        - Specific location within the page (if applicable)
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-content
+    attributes:
+      label: Current Content
+      description: What does the current documentation say? (copy/paste the problematic content)
+      placeholder: Paste the current documentation content here
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Issue Description
+      description: Describe the problem with the current documentation
+      placeholder: Explain what's wrong, missing, or unclear about the current documentation
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-improvement
+    attributes:
+      label: Suggested Improvement
+      description: How should the documentation be improved?
+      placeholder: Describe what should be changed, added, or clarified
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the documentation issue
+      placeholder: |
+        - Why is this important?
+        - Who would benefit from this improvement?
+        - Any relevant examples or use cases?
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues to avoid creating duplicates
+          required: true
+        - label: I have provided specific location information for the documentation issue
+          required: true
