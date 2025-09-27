@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🚨 Security Issues
+    url: mailto:security@vinkius.com
+    about: Please report security vulnerabilities privately via email
+  - name: 💬 Community Discussion
+    url: https://github.com/vinkius-labs/vinkius-issues/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 📖 Documentation
+    url: https://docs.vinkius.com
+    about: Read the official Vinkius documentation
