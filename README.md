@@ -2,7 +2,7 @@
 
 Welcome to the official issue tracker for Vinkius! This repository serves as the primary contact point for users to report bugs, request features, and get support for Vinkius.
 
-## 🐛 Reporting Issues
+## Reporting Issues
 
 Before creating a new issue, please:
 
@@ -10,7 +10,7 @@ Before creating a new issue, please:
 2. **Choose the appropriate issue template** for your specific need
 3. **Provide detailed information** to help us understand and reproduce the problem
 
-## 📋 Issue Types
+## Issue Types
 
 We provide different templates for different types of issues:
 
@@ -19,7 +19,7 @@ We provide different templates for different types of issues:
 - **❓ Question/Support** - Get help or ask questions about Vinkius
 - **📚 Documentation** - Report issues with documentation or suggest improvements
 
-## 🚀 Getting Started
+## Getting Started
 
 To report an issue:
 
@@ -29,20 +29,20 @@ To report an issue:
 4. Fill out the template with as much detail as possible
 5. Submit your issue
 
-## 📖 Guidelines
+## Guidelines
 
 Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before participating in this repository.
 
-## 🔗 Links
+## Links
 
 - [Vinkius Documentation](#) <!-- Add actual documentation link when available -->
 - [Vinkius Website](#) <!-- Add actual website link when available -->
 - [Community Support](#) <!-- Add community support link when available -->
 
-## 📞 Support
+## Support
 
 If you need immediate support or have security concerns, please contact us through our official support channels rather than creating a public issue.
 
 ---
 
-Thank you for helping us improve Vinkius! 🙏
+Thank you for helping us improve Vinkius! 
